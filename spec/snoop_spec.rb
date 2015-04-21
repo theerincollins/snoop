@@ -12,7 +12,7 @@ describe('String#snoop') do
   end
 
   it('will not change the first letter of a word into a z') do
-    expect("Hope swiss works".snoop()).to(eq("Hope swizz workz"))
+    expect("Sally swims the seashore, like a gobber snack".snoop()).to(eq("Sally swimz the seazhore, like a gobber snack"))
   end
 
 end
