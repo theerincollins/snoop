@@ -20,8 +20,8 @@
         even_newer_string = new_string.join()
         even_newer_string.split(" ").each() do |word|
 binding.pry
-          word.each() do |letter|
-            letter[0].replace(storage)
+          word.each_with_index do |letter, index|
+            letter[0].replace(storage[index}])
           end
         end
         even_newer_string.to_s()
